@@ -6,7 +6,7 @@ This sample shows how to create Custom Dialogs using `@microsoft/sp-dialog` pack
 ![react-send-document](./assets/preview.PNG)
 
 ## Used SharePoint Framework Version 
-![drop](https://img.shields.io/badge/version-1.2-green.svg)
+![drop](https://img.shields.io/badge/version-1.7-green.svg)
 
 ## Applies to
 

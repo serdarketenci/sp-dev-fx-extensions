@@ -19310,7 +19310,7 @@ var SendDocumentService_SendDocumentService = (function () {
         });
     };
     /**
-     *  PRIVATE METHODS
+     *  ORIVATE METHODS
      */
     SendDocumentService.prototype.base64ArrayBuffer = function (arrayBuffer) {
         var base64 = '';

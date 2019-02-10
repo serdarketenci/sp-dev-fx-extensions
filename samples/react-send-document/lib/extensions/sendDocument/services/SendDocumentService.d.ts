@@ -14,7 +14,7 @@ export declare class SendDocumentService implements IService {
     getFileContentAsBase64(fileUri: string): Promise<string>;
     sendEMail(emailProperties: EMailProperties): Promise<boolean | Error>;
     /**
-     *  PRIVATE METHODS
+     *  ORIVATE METHODS
      */
     private base64ArrayBuffer(arrayBuffer);
 }
