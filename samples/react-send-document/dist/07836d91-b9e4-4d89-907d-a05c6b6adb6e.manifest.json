@@ -1,0 +1,62 @@
+{
+  "id": "07836d91-b9e4-4d89-907d-a05c6b6adb6e",
+  "alias": "SendDocumentCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "items": {
+    "SEND_DOCUMENT": {
+      "title": {
+        "default": "Send Document"
+      },
+      "iconImageUrl": "icons/request.png",
+      "type": "command"
+    }
+  },
+  "loaderConfig": {
+    "entryModuleId": "send-document-command-set",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "send-document-command-set": {
+        "type": "path",
+        "path": "dist/send-document-command-set.js"
+      },
+      "react": {
+        "type": "component",
+        "version": "16.3.2",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "failoverPath": "node_modules/react/dist/react.js"
+      },
+      "react-dom": {
+        "type": "component",
+        "version": "16.3.2",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "failoverPath": "node_modules/react-dom/dist/react-dom.js"
+      },
+      "@microsoft/decorators": {
+        "type": "component",
+        "version": "1.7.1",
+        "id": "f97266fb-ccb7-430e-9384-4124d05295d3"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "version": "1.7.1",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+      },
+      "@microsoft/sp-listview-extensibility": {
+        "type": "component",
+        "version": "1.7.1",
+        "id": "d37b65ee-c7d8-4570-bc74-2b294ff3b380"
+      },
+      "@microsoft/sp-dialog": {
+        "type": "component",
+        "version": "1.7.1",
+        "id": "c0c518b8-701b-4f6f-956d-5782772bb731"
+      }
+    }
+  }
+}

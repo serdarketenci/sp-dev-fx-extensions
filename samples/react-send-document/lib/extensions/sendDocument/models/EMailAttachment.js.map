@@ -1,0 +1,1 @@
+{"version":3,"file":"EMailAttachment.js","sourceRoot":"","sources":["../../../../src/extensions/sendDocument/models/EMailAttachment.ts"],"names":[],"mappings":"AACA;IAII,yBAAY,OAAwB;QAChC,IAAI,CAAC,QAAQ,GAAG,OAAO,CAAC,QAAQ,CAAC;QACjC,IAAI,CAAC,YAAY,GAAG,OAAO,CAAC,YAAY,CAAC;IAC7C,CAAC;IACL,sBAAC;AAAD,CAAC,AARD,IAQC"}
